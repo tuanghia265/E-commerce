@@ -11,4 +11,4 @@ const CategorySchema = mongoose.Schema({
 
 )
 
-export const Category = mongoose.Model("Category", CategorySchema)
+export const Category = mongoose.model("Category", CategorySchema)
